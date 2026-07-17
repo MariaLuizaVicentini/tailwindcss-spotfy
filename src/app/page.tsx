@@ -26,7 +26,7 @@ export default function Home() {
             </a>
           </nav>
 
-          <nav className="mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-2">
+          <nav className="mt-6 pt-6 border-t border-zinc-0 flex flex-col gap-2">
             <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Playlist Eletro</a>
             <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Playlist Samba</a>
             <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Playlist Funk</a>
@@ -44,10 +44,39 @@ export default function Home() {
               <ChevronRight/>
             </button>
           </div>
+
+          <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
+
+          <div className="grid grid-cols-3 gap-4 mt-4">
+            <a className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <img src="/album-hari-1.jpg" width={104} height={104} alt="Capa do album McHariel" />
+              <strong>Mc Hariel</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <img src="/album-hari-1.jpg" width={104} height={104} alt="Capa do album McHariel" />
+              <strong>Mc Hariel</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <img src="/album-hari-1.jpg" width={104} height={104} alt="Capa do album McHariel" />
+              <strong>Mc Hariel</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <img src="/album-hari-1.jpg" width={104} height={104} alt="Capa do album McHariel" />
+              <strong>Mc Hariel</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <img src="/album-hari-1.jpg" width={104} height={104} alt="Capa do album McHariel" />
+              <strong>Mc Hariel</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <img src="/album-hari-1.jpg" width={104} height={104} alt="Capa do album McHariel" />
+              <strong>Mc Hariel</strong>
+            </a>
+          </div>
         </main>
       </div>
 
-      <footer className="bg-zinc-800 border-zinc-700 p-6">
+      <footer className="bg-zinc-0 border-zinc-700 p-6">
         rodape
       </footer>
     </div>
